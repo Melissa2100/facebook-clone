@@ -804,7 +804,46 @@ nav {
     font-size: 10px;
   }
   .story.story1 img {
-    width: 30px;
+    width: 25px;
     bottom: 30px;
+  }
+  .add-post-links a {
+    margin-right: 12px;
+    font-size: 9px;
+  }
+  .add-post-links img {
+    width: 16px;
+    margin-right: 5px;
+  }
+  .post-input-container {
+    padding-left: 0;
+  }
+}
+
+/* || media query for profile page */
+@media (max-width: 900px) {
+  .profile-container {
+    padding: 20px 5%;
+  }
+  .profile-details {
+    flex-wrap: wrap;
+  }
+  .pd-right {
+    text-align: left;
+    margin-top: 15px;
+  }
+  .pd-right button {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .pd-row div h3 {
+    font-size: 16px;
+  }
+  .profile-info {
+    flex-wrap: wrap;
+  }
+  .info-col, 
+  .post-col {
+    flex-basis: 100%;
   }
 }
